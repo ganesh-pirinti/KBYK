@@ -1,0 +1,21 @@
+# KBYK Handcrafted Keepsakes & Bespoke Gifting
+# https://kbyk.in
+
+User-agent: *
+Allow: /
+Allow: /#shop
+Allow: /#occasions
+Allow: /#bouquet-builder
+Allow: /#voice-gift
+Allow: /#about
+Allow: /#reviews
+Allow: /#faq
+Allow: /#contact
+
+# Disallow Private Studio Management Portal & Sensitive Paths
+Disallow: /#admin
+Disallow: /admin
+Disallow: /api/
+Disallow: /*?pin=*
+
+Sitemap: https://kbyk.in/sitemap.xml
